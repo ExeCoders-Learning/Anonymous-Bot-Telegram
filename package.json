@@ -1,19 +1,20 @@
 {
-  "name": "anonymous",
+  "name": "anonim",
   "version": "1.0.0",
   "description": "Anonymous Bot Telegram Nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "Anonymous",
     "Bot"
   ],
+    "dependencies": {
+    "fs": "0.0.1-security",
+    "pm2": "^5.3.0",
+    "telegraf": "latest"
+  },
   "author": "Miftah",
-  "license": "MIT",
-  "dependencies": {
-    "fs": "^0.0.1-security",
-    "telegraf": "^4.7.0"
-  }
+  "license": "ISC"
 }
